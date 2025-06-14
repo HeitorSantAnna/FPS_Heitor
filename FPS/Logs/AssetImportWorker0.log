@@ -1,29 +1,29 @@
 Using pre-set license
-Built from '6000.0/staging' branch; Version is '6000.0.38f1 (82314a941f2d) revision 8532298'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'pt' Physical Memory: 16072 MB
+Built from '6000.0/staging' branch; Version is '6000.0.39f1 (15ea7ed0b100) revision 1436286'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pt' Physical Memory: 16286 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.0.39f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/1528904/Desktop/FPS_Heitor/FPS
+D:/Usuaerio/Heitor/Desktop/PUC/2Periodo/TI2/TI-2/FPS_Heitor/FPS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63318
+61072
 -job-worker-count
-11
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/1528904/Desktop/FPS_Heitor/FPS
-C:/Users/1528904/Desktop/FPS_Heitor/FPS
+Successfully changed project path to: D:/Usuaerio/Heitor/Desktop/PUC/2Periodo/TI2/TI-2/FPS_Heitor/FPS
+D:/Usuaerio/Heitor/Desktop/PUC/2Periodo/TI2/TI-2/FPS_Heitor/FPS
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,15 +59,13 @@ C:/Users/1528904/Desktop/FPS_Heitor/FPS
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27240]  Target information:
+Player connection [6348]  Target information:
 
-Player connection [27240]  * "[IP] 10.124.43.9 [Port] 0 [Flags] 2 [Guid] 2359061035 [EditorId] 2359061035 [Version] 1048832 [Id] WindowsEditor(7,PLU4PLFLB140309) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6348]  * "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 787445888 [EditorId] 787445888 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LJTVJB6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27240]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2359061035 [EditorId] 2359061035 [Version] 1048832 [Id] WindowsEditor(7,PLU4PLFLB140309) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [27240] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27240] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [6348] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6348] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -78,239 +76,648 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.0.38f1 (82314a941f2d)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/1528904/Desktop/FPS_Heitor/FPS/Assets
+Initialize engine version: 6000.0.39f1 (15ea7ed0b100)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Usuaerio/Heitor/Desktop/PUC/2Periodo/TI2/TI-2/FPS_Heitor/FPS/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
     Vendor:   NVIDIA
-    VRAM:     12142 MB
-    Driver:   31.0.15.1748
+    VRAM:     5954 MB
+    Driver:   32.0.15.7283
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.005437 seconds.
-- Loaded All Assemblies, in  0.280 seconds
-Native extension for LinuxStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for AppleTV target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.007109 seconds.
+- Loaded All Assemblies, in  0.473 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1687 ms
+Android Extension - Scanning For ADB Devices 1867 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.921 seconds
-Domain Reload Profiling: 2200ms
-	BeginReloadAssembly (90ms)
+- Finished resetting the current domain, in  2.279 seconds
+Domain Reload Profiling: 2748ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (123ms)
-		LoadAssemblies (89ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (153ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (120ms)
-			TypeCache.Refresh (119ms)
-				TypeCache.ScanAssembly (108ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (173ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (1921ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2279ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1892ms)
+		SetupLoadedEditorAssemblies (2226ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1761ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (30ms)
-			ProcessInitializeOnLoadAttributes (66ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			InitializePlatformSupportModulesInManaged (1984ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
-Assertion failed on expression: 'IsFileCreated(assemblyPath)'
-Assertion failed on expression: 'IsFileCreated(assemblyPath)'
-Assertion failed on expression: 'IsFileCreated(assemblyPath)'
-Assertion failed on expression: 'IsFileCreated(assemblyPath)'
-Assertion failed on expression: 'IsFileCreated(assemblyPath)'
-Assertion failed on expression: 'IsFileCreated(assemblyPath)'
-Compilation Pipeline: Could not read file Packages/com.unity.collab-proxy/Editor/Toolbar/Unity.CollabProxy.Editor.asmdef
-Fatal Error! Compilation Pipeline: Could not read file Packages/com.unity.collab-proxy/Editor/Toolbar/Unity.CollabProxy.Editor.asmdef
-Crash!!!
-SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Mono;.;C:\Users\1528904\Desktop\FPS_Heitor\FPS;C:\Users\1528904\Desktop\FPS_Heitor\FPS\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: '1528904'
-OS-Version: 10.0.0
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Unity.exe:Unity.exe (00007FF606130000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.0.38.12618
-C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FF89E780000), size: 2502656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FF89CFD0000), size: 815104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF89C030000), size: 3866624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FF89D600000), size: 1847296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FF89BF60000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FF89CA60000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FF89C4A0000), size: 1191936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FF89C3F0000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FF89BC10000), size: 1355776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\IMM32.DLL:IMM32.DLL (00007FF89E570000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Unity.dll:Unity.dll (00007FFF7E460000), size: 87089152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.0.38.12618
-C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FF89BD60000), size: 1531904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF89D490000), size: 737280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FF89D350000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.1882
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FF80DF40000), size: 8019968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.7.0
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FF88AFC0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FF89CBA0000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\etccompress.dll:etccompress.dll (00007FFFFFB10000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FF89E1E0000), size: 1138688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FF865500000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 5783552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FF80D720000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FF89D1B0000), size: 1675264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FF89E0E0000), size: 475136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FF86F330000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.2201.24001
-C:\WINDOWS\System32\combase.dll:combase.dll (00007FF89CC50000), size: 3653632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFFFF9E0000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF89C5D0000), size: 4739072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FF89D9E0000), size: 7307264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FF889870000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
-C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FF8896E0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
-C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FF889700000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
-C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF89CB40000), size: 380928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FF8955D0000), size: 2478080 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FF89B4A0000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF89D0C0000), size: 876544 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FF89BEE0000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\d3d12.dll:d3d12.dll (00007FF868350000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FF898B30000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FF8989E0000), size: 1183744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FF89A0A0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FF89A200000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FF8653F0000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF897580000), size: 1204224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FF88E8E0000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FF864E80000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFFFF140000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FFFFEF80000), size: 1789952 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FF896740000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FF8632A0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FF864E00000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
-C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FF896D10000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FF898BF0000), size: 262144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FF89AD60000), size: 294912 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\OpenRL.dll:OpenRL.dll (00000268B85D0000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
-C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000067E70000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
-C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000067F10000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\embree.dll:embree.dll (00007FFFFDF90000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
-C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FF89B800000), size: 389120 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\tbb.dll:tbb.dll (00007FF839270000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.2022.1111
-C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FF89AFC0000), size: 425984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (00000268B8500000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
-C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FF898980000), size: 356352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FF89AAC0000), size: 106496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1591
-C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FF89BF90000), size: 626688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FF89B2D0000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FF898830000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FF899840000), size: 8560640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FF89E630000), size: 864256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FF89BA70000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FF896B70000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FF898580000), size: 2269184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FF89CA90000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
-C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FF8981F0000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FF89D0A0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FF897940000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF897720000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FF89A240000), size: 1175552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
-C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FF896EB0000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FF873590000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FF875D70000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FF88D300000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FF875D90000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FF898000000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FF897230000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\AMDUnityPlugin.DLL:AMDUnityPlugin.DLL (00007FFF896D0000), size: 8814592 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFFD9F90000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FF832660000), size: 364544 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FF891F00000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FF89B7D0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\System32\DriverStore\FileRepository\nvddig.inf_amd64_1433e0ebc3cfce1c\nvldumdx.dll:nvldumdx.dll (00007FF8923D0000), size: 1142784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.15.1748
-C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FF8939B0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FF896960000), size: 1511424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\wldp.dll:wldp.dll (00007FF89B340000), size: 380928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FF89B280000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FF89D7E0000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FF89B260000), size: 114688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
-C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FF89AA20000), size: 229376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1301
-C:\WINDOWS\System32\DriverStore\FileRepository\nvddig.inf_amd64_1433e0ebc3cfce1c\nvwgf2umx.dll:nvwgf2umx.dll (00007FFF7BA60000), size: 44015616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.15.1748
-C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF8927C0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1000
-C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF88B920000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF8933D0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1000
-C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FF886CA0000), size: 983040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FF88E640000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FF89B060000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\Program Files (x86)\Kaspersky Lab\KES.12.7.0\x64\com_antivirus.dll:com_antivirus.dll (00007FF8771D0000), size: 2363392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 21.19.7.477
-C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FF864DE0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.6.0
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\radeonrays.dll:radeonrays.dll (00007FFFD9F30000), size: 344064 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFF86D70000), size: 10756096 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Data\PlaybackEngines\AppleTVSupport\x64\UnityEditor.iOS.Native.dll:UnityEditor.iOS.Native.dll (00007FFFD9EE0000), size: 311296 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Data\PlaybackEngines\iOSSupport\x64\UnityEditor.iOS.Native.dll:UnityEditor.iOS.Native.dll (00007FFFD9E90000), size: 311296 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FF897460000), size: 999424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.1882
-C:\Windows\System32\Windows.FileExplorer.Common.dll:Windows.FileExplorer.Common.dll (00007FF8965C0000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FF8963B0000), size: 1474560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\edputil.dll:edputil.dll (00007FF894840000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FF891A20000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\urlmon.dll:urlmon.dll (00007FF894570000), size: 1933312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.26100.1882
-C:\WINDOWS\SYSTEM32\iertutil.dll:iertutil.dll (00007FF894210000), size: 2891776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.26100.2033
-C:\WINDOWS\SYSTEM32\srvcli.dll:srvcli.dll (00007FF894170000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
-C:\WINDOWS\SYSTEM32\netutils.dll:netutils.dll (00007FF89A3E0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\Windows\System32\cldapi.dll:cldapi.dll (00007FF8919E0000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
-C:\WINDOWS\SYSTEM32\virtdisk.dll:virtdisk.dll (00007FF88E750000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1591
-C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF899130000), size: 2363392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.2033
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.777 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.641 seconds
+Domain Reload Profiling: 1413ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (461ms)
+		LoadAssemblies (350ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (173ms)
+			BuildScriptInfoCaches (36ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (641ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3701 unused Assets / (0.9 MB). Loaded Objects now: 4187.
+Memory consumption went from 82.9 MB to 82.1 MB.
+Total: 8.846400 ms (FindLiveObjects: 0.692800 ms CreateObjectMapping: 0.246500 ms MarkObjects: 6.695800 ms  DeleteObjects: 1.209500 ms)
 
-========== OUTPUTTING STACK TRACE ==================
+========================================================================
+Received Import Request.
+  Time since last request: 232217.009214 seconds.
+  path: Assets/MaterialPistol
+  artifactKey: Guid(16d8e505302811e45b7ca00410672d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol using Guid(16d8e505302811e45b7ca00410672d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6363ed8b55e0747479d62806f4e8012f') in 0.0090151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-0x00007FF89C0F83EA (KERNELBASE) RaiseException
-0x00007FFF7FFFE915 (Unity) EditorMonoConsole::LogToConsoleImplementation
-0x00007FFF7FFFF5DA (Unity) EditorMonoConsole::LogToConsoleImplementation
-0x00007FFF80CB0ADD (Unity) DebugStringToFilePostprocessedStacktrace
-0x00007FFF80CAFE78 (Unity) DebugStringToFile
-0x00007FFF805B5BFC (Unity) RegisterAssemblyDefinition
-0x00007FFF809E46F6 (Unity) ProcessAssemblyAssets
-0x00007FFF809E5406 (Unity) UpdateScriptCompilationPipelineCaches
-0x00007FFF808C02C4 (Unity) InitializeScriptPipelineCaches
-0x00007FFF8010A143 (Unity) Application::InitializeProject
-0x00007FFF80711875 (Unity) UnityMain
-0x00007FF606132FBA (Unity) __scrt_common_main_seh
-0x00007FF89CFFDBE7 (KERNEL32) BaseThreadInitThunk
-0x00007FF89E805A4C (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 1007.221296 seconds.
+  path: Assets/MaterialPistol/PistolWood.fbx
+  artifactKey: Guid(07ceabdc9690da04da0046094eb44a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/PistolWood.fbx using Guid(07ceabdc9690da04da0046094eb44a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fc36c281ccfdfec4b8f06cb544ce8a7') in 0.3940893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
-========== END OF STACKTRACE ===========
+========================================================================
+Received Import Request.
+  Time since last request: 82.003023 seconds.
+  path: Assets/MaterialPistol/PistolWoodMaterial.mat
+  artifactKey: Guid(e963f034a60ba5c4eb9c57592b609b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/PistolWoodMaterial.mat using Guid(e963f034a60ba5c4eb9c57592b609b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfeb67037d7dbc5d377db543bc4693c8') in 0.0131153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
- * C:/Users/1528904/AppData/Local/Temp/Unity/Editor/Crashes
+========================================================================
+Received Import Request.
+  Time since last request: 11.095857 seconds.
+  path: Assets/MaterialPistol/gunmix_43543_Normal_1003.jpeg
+  artifactKey: Guid(c63c8c0ac348a7b4485bf1d65263031e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/gunmix_43543_Normal_1003.jpeg using Guid(c63c8c0ac348a7b4485bf1d65263031e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07e67aa21caac04cbe396c575f5f1b20') in 0.0223464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.630618 seconds.
+  path: Assets/MaterialPistol/gunmix_43543_Normal_1002.jpeg
+  artifactKey: Guid(ac88e1bc85b2c154b90c39fa2c30e675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/gunmix_43543_Normal_1002.jpeg using Guid(ac88e1bc85b2c154b90c39fa2c30e675) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e540ba3de5d26aaa67ef4a149d36eeaa') in 0.0170156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.048605 seconds.
+  path: Assets/MaterialPistol/gunmix_43543_Metallic_1003-gunmix_43543_Roughness_1003@chann.png
+  artifactKey: Guid(bcad6ed97aa65c04c9c6e934afec7e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/gunmix_43543_Metallic_1003-gunmix_43543_Roughness_1003@chann.png using Guid(bcad6ed97aa65c04c9c6e934afec7e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd465af62325ede3d046c59d65ee6544') in 0.0123371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.420478 seconds.
+  path: Assets/MaterialPistol/gunmix_43543_Metallic_1003-gunmix_43543_Roughness_1003@chann 1.png
+  artifactKey: Guid(344a1b7e1933215408fb68591c0e3c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/gunmix_43543_Metallic_1003-gunmix_43543_Roughness_1003@chann 1.png using Guid(344a1b7e1933215408fb68591c0e3c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe81f45b498acd5278626ae91f819bcc') in 0.0072349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.432989 seconds.
+  path: Assets/MaterialPistol/gunmix_43543_Metallic_1002-gunmix_43543_Roughness_1002@chann.png
+  artifactKey: Guid(72a1d1a5a44abaf42873341dc7daffbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/gunmix_43543_Metallic_1002-gunmix_43543_Roughness_1002@chann.png using Guid(72a1d1a5a44abaf42873341dc7daffbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33d6590087dd06c49192f3bc7dcf4548') in 0.007962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.735782 seconds.
+  path: Assets/MaterialPistol/gunmix_43543_Metallic_1002-gunmix_43543_Roughness_1002@chann 1.png
+  artifactKey: Guid(4c9593c4e37070a4f8934a092f6cb91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/gunmix_43543_Metallic_1002-gunmix_43543_Roughness_1002@chann 1.png using Guid(4c9593c4e37070a4f8934a092f6cb91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebf323b28562ca002f282f4330a5dbcf') in 0.0155072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.551852 seconds.
+  path: Assets/MaterialPistol/gunmix_43543_Metallic_1001-gunmix_43543_Roughness_1001@chann.png
+  artifactKey: Guid(4f03b003d39301b48823c534efce4c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/gunmix_43543_Metallic_1001-gunmix_43543_Roughness_1001@chann.png using Guid(4f03b003d39301b48823c534efce4c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d224d66d5dcaf05461a1b6b703ac795') in 0.0087879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.655404 seconds.
+  path: Assets/MaterialPistol/gunmix_43543_Metallic_1001-gunmix_43543_Roughness_1001@chann 1.png
+  artifactKey: Guid(e2db158df043ccb42be9db53839594b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/gunmix_43543_Metallic_1001-gunmix_43543_Roughness_1001@chann 1.png using Guid(e2db158df043ccb42be9db53839594b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7d9fd8403d6f2fb5319a0c9fff2b000') in 0.0095692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.920934 seconds.
+  path: Assets/MaterialPistol/gunmix_43543_BaseColor_1003.jpeg
+  artifactKey: Guid(e2658c0a4b5f9c54aa87078d7b0f445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/gunmix_43543_BaseColor_1003.jpeg using Guid(e2658c0a4b5f9c54aa87078d7b0f445f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0669932b061f1dcda44458f6f6e74414') in 0.0155951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.245384 seconds.
+  path: Assets/MaterialPistol/gunmix_43543_BaseColor_1002.jpeg
+  artifactKey: Guid(f1e6d4fb1e31f834caaee1848e33578e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/gunmix_43543_BaseColor_1002.jpeg using Guid(f1e6d4fb1e31f834caaee1848e33578e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '751ba3fc849ca80705a944cd34efff7e') in 0.0075301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.183549 seconds.
+  path: Assets/MaterialPistol/gunmix_43543_BaseColor_1001.jpeg
+  artifactKey: Guid(df9a32f4c155e2a4cb7c5ca9300395ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/gunmix_43543_BaseColor_1001.jpeg using Guid(df9a32f4c155e2a4cb7c5ca9300395ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bba741f7538dec00b8d2239ba747c1c') in 0.008486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.459441 seconds.
+  path: Assets/MaterialPistol/PistolWoodMaterial 1.mat
+  artifactKey: Guid(b270eab97f525a74d93981557ca65047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/PistolWoodMaterial 1.mat using Guid(b270eab97f525a74d93981557ca65047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfdbf029e8fba3ef88138401800f6be9') in 0.0100647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.542757 seconds.
+  path: Assets/MaterialPistol/PistolWoodMaterial 2.mat
+  artifactKey: Guid(0263c53963c91834992c6fdb93d39b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaterialPistol/PistolWoodMaterial 2.mat using Guid(0263c53963c91834992c6fdb93d39b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa2e9a0b839ba94618e6452bf17d87af') in 0.006753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1646.646911 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0006358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3693 unused Assets / (0.8 MB). Loaded Objects now: 4239.
+Memory consumption went from 86.6 MB to 85.8 MB.
+Total: 36.815100 ms (FindLiveObjects: 0.853900 ms CreateObjectMapping: 0.207400 ms MarkObjects: 34.388800 ms  DeleteObjects: 1.363200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.750595 seconds.
+  path: Assets/Gun.cs
+  artifactKey: Guid(1e502b962a53f244bb406236f4a5ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun.cs using Guid(1e502b962a53f244bb406236f4a5ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccbd1541d09599846a94cefc151eaf49') in 0.0029425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.865 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.547 seconds
+Domain Reload Profiling: 1410ms
+	BeginReloadAssembly (295ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (439ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (145ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (547ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (426ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3700 unused Assets / (1.4 MB). Loaded Objects now: 4239.
+Memory consumption went from 87.6 MB to 86.2 MB.
+Total: 8.464100 ms (FindLiveObjects: 0.601400 ms CreateObjectMapping: 0.178100 ms MarkObjects: 5.856400 ms  DeleteObjects: 1.826400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.564611 seconds.
+  path: Assets/Guns
+  artifactKey: Guid(48d3f8eb2277b284aa21edc8e50b0bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns using Guid(48d3f8eb2277b284aa21edc8e50b0bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3f46cf4c83edffbb359664ebe0ae7be') in 0.0019224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3693 unused Assets / (0.8 MB). Loaded Objects now: 4239.
+Memory consumption went from 87.7 MB to 86.9 MB.
+Total: 8.471000 ms (FindLiveObjects: 0.736500 ms CreateObjectMapping: 0.252400 ms MarkObjects: 6.166100 ms  DeleteObjects: 1.314600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.652 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.553 seconds
+Domain Reload Profiling: 1203ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (554ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (428ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3700 unused Assets / (0.8 MB). Loaded Objects now: 4239.
+Memory consumption went from 87.5 MB to 86.8 MB.
+Total: 8.005500 ms (FindLiveObjects: 0.610900 ms CreateObjectMapping: 0.178200 ms MarkObjects: 6.064900 ms  DeleteObjects: 1.150200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.080086 seconds.
+  path: Assets/Guns/Gun.cs
+  artifactKey: Guid(1e502b962a53f244bb406236f4a5ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Gun.cs using Guid(1e502b962a53f244bb406236f4a5ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34a13d85744acd7b8a5fd833054f58aa') in 0.0033418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3693 unused Assets / (279.0 KB). Loaded Objects now: 4239.
+Memory consumption went from 87.7 MB to 87.4 MB.
+Total: 9.155000 ms (FindLiveObjects: 0.941100 ms CreateObjectMapping: 0.338600 ms MarkObjects: 6.769100 ms  DeleteObjects: 1.104900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 725.838425 seconds.
+  path: Assets/Guns/Gun.cs
+  artifactKey: Guid(1e502b962a53f244bb406236f4a5ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Gun.cs using Guid(1e502b962a53f244bb406236f4a5ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '528b774f7eba41f4984e6a21662a3d1f') in 0.0015114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.830 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.526 seconds
+Domain Reload Profiling: 1355ms
+	BeginReloadAssembly (270ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (460ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (527ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3700 unused Assets / (0.8 MB). Loaded Objects now: 4239.
+Memory consumption went from 87.5 MB to 86.7 MB.
+Total: 9.713000 ms (FindLiveObjects: 0.788100 ms CreateObjectMapping: 0.287500 ms MarkObjects: 7.195900 ms  DeleteObjects: 1.439200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3693 unused Assets / (131.0 KB). Loaded Objects now: 4239.
+Memory consumption went from 87.7 MB to 87.6 MB.
+Total: 8.341000 ms (FindLiveObjects: 0.801600 ms CreateObjectMapping: 0.245800 ms MarkObjects: 6.085100 ms  DeleteObjects: 1.206900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 70.737321 seconds.
+  path: Assets/Guns/Gun.cs
+  artifactKey: Guid(1e502b962a53f244bb406236f4a5ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Gun.cs using Guid(1e502b962a53f244bb406236f4a5ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dad471956825c9530fe758092e3e609') in 0.0031472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.679 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 1207ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (389ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (529ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3700 unused Assets / (0.5 MB). Loaded Objects now: 4239.
+Memory consumption went from 87.5 MB to 87.0 MB.
+Total: 6.766600 ms (FindLiveObjects: 0.718900 ms CreateObjectMapping: 0.261900 ms MarkObjects: 5.005000 ms  DeleteObjects: 0.779700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.067668 seconds.
+  path: Assets/PrefabBullet
+  artifactKey: Guid(45b88c56cb0ee244a9a598f5a8e556f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabBullet using Guid(45b88c56cb0ee244a9a598f5a8e556f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d4c276c3f3c10e4798311479c306e50') in 0.0020403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.418808 seconds.
+  path: Assets/PrefabBullet/Bullet.prefab
+  artifactKey: Guid(9a9cc5485012ce647badb0c794e0984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabBullet/Bullet.prefab using Guid(9a9cc5485012ce647badb0c794e0984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81d86eb87b267be39502a7145425bdab') in 0.1793124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.646 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.609 seconds
+Domain Reload Profiling: 1253ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (139ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3700 unused Assets / (0.8 MB). Loaded Objects now: 4241.
+Memory consumption went from 87.6 MB to 86.7 MB.
+Total: 9.330600 ms (FindLiveObjects: 1.006700 ms CreateObjectMapping: 0.274800 ms MarkObjects: 6.689900 ms  DeleteObjects: 1.356800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.659349 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(289c1b55c9541489481df5cc06664110) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(289c1b55c9541489481df5cc06664110) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b1e2e4329a9b663a781f2d5617580f6') in 0.2778936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.796924 seconds.
+  path: Assets/JogoFPS.unity
+  artifactKey: Guid(f64fa299016b6154ca3e108656ec3f5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JogoFPS.unity using Guid(f64fa299016b6154ca3e108656ec3f5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98904d4788a59ddf31e3fc7fbf7b08e0') in 0.0038565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.461360 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c5709d561b31518ca0f17e63443ac91') in 0.0005677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.136740 seconds.
+  path: Assets/Scenes/Teste.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teste.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18ec3cdc5db555ce6b3a3ebeda887f82') in 0.0006344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.975489 seconds.
+  path: Assets/Scenes/Teste.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Teste.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a9df5167e34b1536129ae53c28d48a3') in 0.0029833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
