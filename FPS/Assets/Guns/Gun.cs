@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Gun : MonoBehaviour
 {
@@ -14,9 +15,20 @@ public class Gun : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButtonDown("KeyCode.Space"))
+        if(Input.GetMouseButtonDown(0))
         {
-            Shot();
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            if(Physics.Raycast(ray, out hit))
+            {
+                Debug.DrawRay(ray.origin, ray.direction * hit.distance, Color.black);
+                Debug.Log($"Objeto atingido: {hit.collider.name}");
+                if(hit.collider.CompareTag("Enemy"))
+                {
+                    Enemy.lifeEnemy--;
+                }
+           }
         }
     }
 
